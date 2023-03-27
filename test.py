@@ -48,13 +48,13 @@ class TestToLower(unittest.TestCase):
         self.assertEqual(to_lower("HeLlO"), "hello")
         
         # Assert with a numerical digits.
-        # Input: "HeLlO"
-        # Output: "hello"
+        # Input: "12B3"
+        # Output: "12b3"
         self.assertEqual(to_lower("12B3"), "12b3")
 
         # Assert empty string.
-        # Input: "HeLlO"
-        # Output: "hello"
+        # Input: ""
+        # Output: ""
         self.assertEqual(to_lower(""), "")
 
 class TestCapitalize(unittest.TestCase):
@@ -73,13 +73,13 @@ class TestCapitalize(unittest.TestCase):
         self.assertEqual(capitalize("HeLlO"), "Hello")
         
         # Assert with a numerical digits.
-        # Input: "HeLlO"
-        # Output: "hello"
+        # Input: "12B3"
+        # Output: "12b3"
         self.assertEqual(capitalize("12B3"), "12b3")
 
         # Assert empty string.
-        # Input: "HeLlO"
-        # Output: "hello"
+        # Input: ""
+        # Output: ""
         self.assertEqual(capitalize(""), "")
         
 if __name__ == '__main__':
