@@ -3,3 +3,5 @@ def calculateArea(radius):
 
 def divide_numbers(a, b):
     return a / b
+
+# snippet file1
